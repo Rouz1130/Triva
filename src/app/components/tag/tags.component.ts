@@ -2,10 +2,10 @@ import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-tag',
-  templateUrl: './tag.component.html',
-  styleUrls: ['./tag.component.scss']
+  templateUrl: './tags.component.html',
+  styleUrls: ['./tags.component.scss']
 })
-export class TagComponent implements OnInit {
+export class TagsComponent implements OnInit {
 
   constructor() { }
 
