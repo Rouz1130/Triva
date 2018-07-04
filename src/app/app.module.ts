@@ -12,13 +12,13 @@ import { TagService } from './services/tag.service';
 
 @NgModule({
   declarations: [
-    AppComponent, CategoriesComponent, TagsComponent, QuestionsComponent
+    AppComponent,
+    CategoriesComponent,
+    TagsComponent,
+    QuestionsComponent
   ],
   imports: [
-
-
-  BrowserModule,
-    // Router
+    BrowserModule,
     RouterModule.forRoot(routes),
     FormsModule,
     HttpModule
